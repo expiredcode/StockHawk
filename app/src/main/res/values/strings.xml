@@ -1,0 +1,60 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">Stock Hawk</string>
+    <string name="detail_activity_name">Stock Details</string>
+
+    <string name="pref_stocks_initialized_key" translatable="false">initialized</string>
+
+    <string name="pref_stocks_key" translatable="false">stocks</string>
+
+
+    <string name="pref_display_mode_key" translatable="false">displayMode</string>
+    <string name="pref_display_mode_default" translatable="false">@string/pref_display_mode_percentage_key</string>
+
+    <string name="pref_display_mode_absolute_key" translatable="false">absolute</string>
+    <string name="pref_display_mode_percentage_key" translatable="false">percentage</string>
+
+    <string name="default_stocks_yahoo" translatable="false">YHOO</string>
+    <string name="default_stocks_apple" translatable="false">AAPL</string>
+    <string name="default_stocks_microsoft" translatable="false">MSFT</string>
+    <string name="default_stocks_facebook" translatable="false">FB</string>
+
+
+    <string name="action_change_units">@string/pref_display_mode_key</string>
+
+
+    <string name="dialog_title">Add Stock</string>
+    <string name="dialog_hint">Symbol (e.g. GOOG)</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_add">Add</string>
+
+    <string name="error_no_network">No network connectivity! Will load stock cursor when the network is available.</string>
+    <string name="error_no_stocks">No stocks added! Hit the floating action button to add one.</string>
+
+    <string name="toast_stock_added_no_connectivity">Symbol %s added. Will refresh when network available.</string>
+    <string name="toast_no_connectivity">Will refresh when network available.</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="today_stock">Today Stock</string>
+
+    <string name="stock_symbol_text">GOOG</string>
+
+    <string name="tools_perc">10%</string>
+    <string name="tools_price">$12.30</string>
+    <string name="tools_symbol">CBS</string>
+    <string name="tools_error_message">Error message</string>
+
+    <string name="a11y_price">Price is <xliff:g id="price">%1$s</xliff:g> U.S. dollars</string>
+    <string name="a11y_symbol">Stock symbol is <xliff:g id="symbol">%1$s</xliff:g></string>
+    <string name="a11y_percentage">Stock grow percentage is <xliff:g id="percentage">%1$s</xliff:g> percent</string>
+    <string name="a11y_change">Stock change is <xliff:g id="change">%1$s</xliff:g></string>
+    <string name="ally_button">Click to add a new stock voice</string>
+    <string name="a11y_dialog_edit">Insert here a new stock name</string>
+
+    <string name="value_up">Stock value has gone up</string>
+    <string name="value_down">Stock value has gone down</string>
+    
+    
+
+
+</resources>
